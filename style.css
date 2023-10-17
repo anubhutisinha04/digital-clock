@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    display: flex;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    background:url("https://images.unsplash.com/photo-1475518845976-0fd87b7e4e5d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80");
+    background-size: cover;
+    overflow: hidden;
+}
+
+h2{
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    font-size: 20px;
+    align-items: center;
+    color: antiquewhite;
+}
+
+.clock{
+    display: flex;
+    color: antiquewhite;
+}
+
+.clock div{
+    margin: 7px;
+    position: relative;
+}
+
+.clock span{
+    height: 80px;
+    width: 100px;
+    background-color:steelblue;
+    opacity: .8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    text-shadow: 2px, 2px, 4px, rgba(0,0,0,0.3);
+}
+
+.clock .text{
+    height: 30px;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: yellow;
+    opacity: 0.8;
+    color: black;
+}
+
+.clock #ampm{
+    bottom: 0;
+    position: absolute;
+    width: 60px;
+    height: 30px;
+    font-size: 20px;
+    background-color: whitesmoke;
+    color: black;
+}
